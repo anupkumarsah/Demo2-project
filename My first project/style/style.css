@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:#bbf1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none ;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color:#0DCFE3;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: #F3FAF9;
+    color: black;
+    border: 1px solid black;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 50%;
+    height: 70px;
+    width: 80px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50PX;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field {
+  display: flex;
+  gap: 35px;  
+}
+
+input{
+    padding: 4px 10px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #272827;
+    text-shadow: 2px 2px 4px
+}
+
+.hero-left-section h1 span{
+    color: #54b472;
+    font-weight: 900;
+    font-size: 2.5 rem;
+    color: #54b472;
+    text-shadow: 2px 2px 4px
+
+}
+
+.hero-left-section p {
+    font-weight: 700;
+    font-size: 25px;
+    color: #212221;
+    text-shadow: 2px 2px 4px
+}
+
+.hero-left-section p span {
+    font-weight: 700;
+    font-size: 25px;
+    color: #54b472;
+    color: #54b472;
+    text-shadow: 2px 2px 4px
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right-section-btns{
+    display: flex;
+    align-items:center;
+    gap: 30px;
+
+}
+
+.hero-right-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+ footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+ }
+ footer p {
+    font-weight: 700;
+    
+ }
+ footer ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+ }
+
+footer ul li a i:hover {
+    background-color: #8fe1d5;
+    color: black;
+    
+}
+
+.hero-left-section{
+    padding: 20PX;
+}
